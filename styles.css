@@ -50,7 +50,7 @@ header {
 
 .headerHome {
   color:rgb(255, 228, 72);
-  background-image:url("/dunlapTennis-photos/skapBackground.jpg");
+  background-image:url("./dunlapTennis-photos/skapBackground.jpg");
   background-size: cover;
   padding: 5px;
   text-align: center;
