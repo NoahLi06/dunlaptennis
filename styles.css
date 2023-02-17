@@ -15,7 +15,7 @@ a:visited {
   text-decoration: none;
 }
 a:hover {
-  color: violet;
+  color: rgb(127, 0, 255);
   background-color: transparent;
   text-decoration: underline;
 }
