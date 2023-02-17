@@ -46,7 +46,13 @@ header {
   text-decoration:none;
 }
 
-
+.welcome {
+  text-align:center;
+  color:white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: rgb(73, 0, 0);
+  padding:1px;
+}
 
 .headerHome {
   color:rgb(114, 11, 152);
