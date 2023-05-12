@@ -15,17 +15,21 @@ a:visited {
   text-decoration: none;
 }
 a:hover {
-  color: rgb(204, 153, 255);
+  color: violet;
   background-color: transparent;
   text-decoration: underline;
 }
 a {
   transition: all 0.3s ease 0s;
 }
+mark {
+  color: maroon;
+}
 
 header {
   color:rgb(255, 255, 255);
   background-color: rgb(63, 7, 7);
+  
   padding:1px 10%;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   display: flex;
@@ -55,10 +59,10 @@ header {
 }
 
 .headerHome {
-  color:rgb(114, 11, 152);
-  background-image:url("./dunlapTennis-photos/skapBackground.jpg");
+  
+  background-image:url("/dunlapTennis-photos/skapBackground.jpg");
   background-size: cover;
-  padding: 5px;
+  padding: 10px;
   text-align: center;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -249,15 +253,27 @@ header {
 
 #centeredScheduleFrame {
   color:aliceblue;
-  background-color: rgb(45, 34, 54);
-  padding: 5px;
+  background-color: rgb(88, 29, 29);
+  padding: .5px;
   text-align: center;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
+#columnRecord {
+  color: white;
+  background-color: rgb(88, 29, 29);
+  padding: 3px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  display: flex;
+}
+
+#currentStats {
+  flex: 33.33%;
+  text-align: center;
+}
 #scheduleNames {
   color:rgb(237, 246, 255);
-  background-color: rgb(45, 34, 54);
+  background-color: rgb(88, 29, 29);
   padding: 10px;
   text-align: center;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
