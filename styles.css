@@ -60,7 +60,7 @@ header {
 
 .headerHome {
   
-  background-image:url("/dunlapTennis-photos/skapBackground.jpg");
+  background-image:url("./dunlapTennis-photos/skapBackground.jpg");
   background-size: cover;
   padding: 10px;
   text-align: center;
