@@ -11,6 +11,22 @@ a:visited {
     background-color: transparent;
     text-decoration: none;
 }
+header {
+    color:rgb(255, 255, 255);
+    background-color: rgb(63, 7, 7);
+    
+    padding:1px 10%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  
+  .nav__state li {
+    display: inline-block;
+    padding: 0px 10px;
+  }
 ol {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
