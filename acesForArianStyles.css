@@ -24,4 +24,45 @@ header {
   .introductions {
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px;
+  }
+
+  a:link {
+    color: rgb(134, 4, 124);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: rgb(134, 4, 124);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color:lightskyblue;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a {
+    transition: all 0.3s ease 0s;
+  }
+
+  /* .historyAcesForArian {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  } */
+
+  /* #acesPhotoHeader {
+    text-align:center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  } */
+
+  .footer-root {
+    color:rgb(180, 177, 177);
+    background-color:rgb(54, 49, 63);
+    padding-bottom:3px;
+    padding-top:20px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    line-height:1mm;
   }
