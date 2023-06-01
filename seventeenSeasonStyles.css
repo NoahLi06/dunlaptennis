@@ -96,8 +96,8 @@ header {
 .footer-root {
     color:rgb(180, 177, 177);
     background-color:rgb(54, 49, 63);
-    padding-bottom:3px;
-    padding-top:20px;
+    padding-bottom:1px;
+    padding-top:10px;
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
     line-height: 1mm;   
