@@ -67,7 +67,11 @@ header {
     line-height:1mm;
   }
 
-
+.drawName {
+  color:black;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 
 
 #bracket {overflow:hidden;background-color: #ebebeb;background-color:rgba(255, 255, 255, 0.9) dding-top:20px; font-size:12px; padding:40px 0; }
