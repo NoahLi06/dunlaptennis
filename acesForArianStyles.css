@@ -134,3 +134,12 @@ header {
       transform: scale(1);
     }
   }
+
+
+.acesPhotoSection {
+  text-align: center;
+}
+#acesPhotoTitle {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+}
