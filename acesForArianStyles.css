@@ -56,6 +56,12 @@ header {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   } */
 
+.drawName {
+  color:black;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
   .footer-root {
     color:rgb(180, 177, 177);
     background-color:rgb(54, 49, 63);
@@ -67,14 +73,7 @@ header {
     line-height:1mm;
   }
 
-.drawName {
-  color:black;
-  text-align: center;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-
-#bracket {overflow:hidden;background-color: #ebebeb;background-color:rgba(255, 255, 255, 0.9) dding-top:20px; font-size:12px; padding:40px 0; }
+  #bracket {overflow:hidden;background-color: #ebebeb;background-color:rgba(255, 255, 255, 0.9) dding-top:20px; font-size:12px; padding:40px 0; }
   .container {max-width: 1100px;margin: 0 auto;display:block;display: -webkit-box;display: -moz-box;display: -ms-flexbox;display: -webkit-flex;display: -webkit-flex;display: flex;-webkit-flex-direction:row;flex-direction: row;}
   .split {display:block;float:left;display: -webkit-box;display: -moz-box;display: -ms-flexbox;display: -webkit-flex;display:flex;width: 42%;-webkit-flex-direction:row;-moz-flex-direction:row;flex-direction:row;}
   .champion {float:left;display:block;width: 16%;-webkit-flex-direction:row;flex-direction:row;-webkit-align-self:center;align-self:center;margin-top: -15px;text-align: center;padding: 230px 0\9;} 
@@ -89,13 +88,10 @@ header {
   .round-two .matchup {margin:0; height: 60px;padding: 50px 0;}
   .round-three .matchup {margin:0; height: 60px; padding: 130px 0;}
   .round-details {font-family: 'Roboto Condensed', sans-serif; font-size: 13px; color: #440f0f;text-transform: uppercase;text-align: center;height: 40px;}
-  .champion li, .round li {background-color: #fff;box-shadow: none; opacity: 0.45;}
+  .champion li, .round li {background-color: #ffffff;box-shadow: none; opacity: 1;}
   .current li {opacity: 1;}
-  .current li.team {background-color: #fff;box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);opacity: 1;}
-  .vote-options {display: block;height: 52px;}
-  .share .container {margin: 0 auto; text-align: center;}
-  .share-icon {font-size: 24px; color: #fff;padding: 25px;}
-  .share-wrap {max-width: 1100px; text-align: center; margin: 60px auto;}
+  .current li.team {background-color: #fff;box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);}
+  
   .final {margin: 4.5em 0;}
   
   @-webkit-keyframes pulse {
@@ -134,7 +130,6 @@ header {
       transform: scale(1);
     }
   }
-
 
 .acesPhotoSection {
   text-align: center;
