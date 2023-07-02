@@ -73,7 +73,7 @@ header {
     line-height:1mm;
   }
 
-  #bracket {overflow:hidden;background-color: #ebebeb;background-color:rgba(255, 255, 255, 0.9) dding-top:20px; font-size:12px; padding:40px 0; }
+  #bracket {overflow:hidden;background-color: #ebebeb; background-color:rgba(255, 255, 255, 0.9); dding-top:20px; font-size:12px; padding:40px 0;}
   .container {max-width: 1100px;margin: 0 auto;display:block;display: -webkit-box;display: -moz-box;display: -ms-flexbox;display: -webkit-flex;display: -webkit-flex;display: flex;-webkit-flex-direction:row;flex-direction: row;}
   .split {display:block;float:left;display: -webkit-box;display: -moz-box;display: -ms-flexbox;display: -webkit-flex;display:flex;width: 42%;-webkit-flex-direction:row;-moz-flex-direction:row;flex-direction:row;}
   .champion {float:left;display:block;width: 16%;-webkit-flex-direction:row;flex-direction:row;-webkit-align-self:center;align-self:center;margin-top: -15px;text-align: center;padding: 230px 0\9;} 
